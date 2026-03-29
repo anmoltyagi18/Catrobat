@@ -1,0 +1,13 @@
+timestamp,event_type,zone,organism,count,severity,details
+2026-03-28T08:00:00Z,plankton_bloom,surface_zone,phytoplankton,5000,low,"Massive concentration of chlorophyll detected at the ocean surface surface."
+2026-03-28T08:15:00Z,organism_spawned,reef_zone_A,clownfish,12,low,New clutch of larvae hatched safely near an anemone host.
+2026-03-28T09:00:00Z,temperature_anomaly,reef_zone_A,,,moderate,Water temperature rose 1.5°C above seasonal average in 2 hours.
+2026-03-28T10:30:00Z,coral_stress_detected,reef_zone_A,staghorn_coral,,moderate,Polyp retraction and mucus production observed due to heat stress.
+2026-03-28T11:00:00Z,schooling_fish_aggregation,surface_zone,anchovy,2500,low,Dense bait ball formed to graze on the plankton bloom.
+2026-03-28T11:45:00Z,predator_movement,open_water,great_white_shark,1,low,Solitary apex predator detected patrolling the edge of the reef.
+2026-03-28T12:30:00Z,feeding_frenzy,surface_zone,tuna,50,moderate,Large school of predators attacking the anchovy bait ball.
+2026-03-28T14:00:00Z,coral_bleaching_warning,reef_zone_A,brain_coral,,high,Visible pigment loss across 15% of the local colony.
+2026-03-28T15:30:00Z,nutrient_upwelling,mangrove_edge,,,low,"Cool, nitrogen-rich water rising from the shelf break."
+2026-03-28T16:00:00Z,organism_spawned,mangrove_edge,shrimp,300,low,Juvenile shrimp emerging in the nutrient-rich nursery grounds.
+2026-03-28T17:15:00Z,deep_sea_migration,deep_zone_B,lanternfish,10000,low,Vertical migration toward mid-depths beginning as sunlight fades.
+2026-03-28T18:00:00Z,predator_attack,reef_zone_A,moray_eel,1,moderate,Ambush attack on a small damselfish during evening transition.

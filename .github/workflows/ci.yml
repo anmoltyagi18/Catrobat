@@ -1,0 +1,40 @@
+name: CI — Ecosystem Narration Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+
+    env:
+      GEMINI_API_KEY: ""
+      OPENROUTER_API_KEY: ""
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-dev.txt
+
+    - name: Run unit tests with coverage
+      run: |
+        pytest tests/ -v --tb=short --cov=narrator --cov-report=term-missing
+
+    - name: Smoke test (Mock Mode)
+      run: |
+        python narrate.py --mock --verbose

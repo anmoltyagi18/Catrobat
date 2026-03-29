@@ -1,0 +1,110 @@
+[
+  {
+    "timestamp": "2026-03-28T08:00:00Z",
+    "event_type": "plankton_bloom",
+    "zone": "surface_zone",
+    "organism": "phytoplankton",
+    "count": 5000,
+    "severity": "low",
+    "details": "Massive concentration of chlorophyll detected at the ocean surface surface."
+  },
+  {
+    "timestamp": "2026-03-28T08:15:00Z",
+    "event_type": "organism_spawned",
+    "zone": "reef_zone_A",
+    "organism": "clownfish",
+    "count": 12,
+    "severity": "low",
+    "details": "New clutch of larvae hatched safely near an anemone host."
+  },
+  {
+    "timestamp": "2026-03-28T09:00:00Z",
+    "event_type": "temperature_anomaly",
+    "zone": "reef_zone_A",
+    "organism": null,
+    "count": null,
+    "severity": "moderate",
+    "details": "Water temperature rose 1.5°C above seasonal average in 2 hours."
+  },
+  {
+    "timestamp": "2026-03-28T10:30:00Z",
+    "event_type": "coral_stress_detected",
+    "zone": "reef_zone_A",
+    "organism": "staghorn_coral",
+    "count": null,
+    "severity": "moderate",
+    "details": "Polyp retraction and mucus production observed due to heat stress."
+  },
+  {
+    "timestamp": "2026-03-28T11:00:00Z",
+    "event_type": "schooling_fish_aggregation",
+    "zone": "surface_zone",
+    "organism": "anchovy",
+    "count": 2500,
+    "severity": "low",
+    "details": "Dense bait ball formed to graze on the plankton bloom."
+  },
+  {
+    "timestamp": "2026-03-28T11:45:00Z",
+    "event_type": "predator_movement",
+    "zone": "open_water",
+    "organism": "great_white_shark",
+    "count": 1,
+    "severity": "low",
+    "details": "Solitary apex predator detected patrolling the edge of the reef."
+  },
+  {
+    "timestamp": "2026-03-28T12:30:00Z",
+    "event_type": "feeding_frenzy",
+    "zone": "surface_zone",
+    "organism": "tuna",
+    "count": 50,
+    "severity": "moderate",
+    "details": "Large school of predators attacking the anchovy bait ball."
+  },
+  {
+    "timestamp": "2026-03-28T14:00:00Z",
+    "event_type": "coral_bleaching_warning",
+    "zone": "reef_zone_A",
+    "organism": "brain_coral",
+    "count": null,
+    "severity": "high",
+    "details": "Visible pigment loss across 15% of the local colony."
+  },
+  {
+    "timestamp": "2026-03-28T15:30:00Z",
+    "event_type": "nutrient_upwelling",
+    "zone": "mangrove_edge",
+    "organism": null,
+    "count": null,
+    "severity": "low",
+    "details": "Cool, nitrogen-rich water rising from the shelf break."
+  },
+  {
+    "timestamp": "2026-03-28T16:00:00Z",
+    "event_type": "organism_spawned",
+    "zone": "mangrove_edge",
+    "organism": "shrimp",
+    "count": 300,
+    "severity": "low",
+    "details": "Juvenile shrimp emerging in the nutrient-rich nursery grounds."
+  },
+  {
+    "timestamp": "2026-03-28T17:15:00Z",
+    "event_type": "deep_sea_migration",
+    "zone": "deep_zone_B",
+    "organism": "lanternfish",
+    "count": 10000,
+    "severity": "low",
+    "details": "Vertical migration toward mid-depths beginning as sunlight fades."
+  },
+  {
+    "timestamp": "2026-03-28T18:00:00Z",
+    "event_type": "predator_attack",
+    "zone": "reef_zone_A",
+    "organism": "moray_eel",
+    "count": 1,
+    "severity": "moderate",
+    "details": "Ambush attack on a small damselfish during evening transition."
+  }
+]

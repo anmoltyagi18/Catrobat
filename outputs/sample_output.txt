@@ -1,0 +1,14 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  MARINE ECOSYSTEM NARRATION  [MOCK]                                          ║
+║  Events analyzed: 12 | High severity: 1                                      ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  A spawning surge of clownfish in Reef Zone A signals healthy reproductive   ║
+║  activity, though the concurrent moderate coral bleaching in the same zone   ║
+║  raises urgent concern for long-term habitat viability. A solitary shark     ║
+║  patrolling the deep zone is likely drawn by the increased prey density      ║
+║  near the reef, while a high-density plankton bloom at the surface suggests  ║
+║  elevated nutrient upwelling — a phenomenon that may cascade positively      ║
+║  through the food web if water temperatures remain stable.                   ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
