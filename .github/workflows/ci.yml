@@ -33,7 +33,7 @@ jobs:
 
     - name: Run unit tests with coverage
       run: |
-        pytest tests/ -v --tb=short --cov=narrator --cov-report=term-missing
+        python -m pytest tests/ -v --tb=short --cov=narrator --cov-report=term-missing
 
     - name: Smoke test (Mock Mode)
       run: |

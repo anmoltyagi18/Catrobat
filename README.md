@@ -1,6 +1,6 @@
 # 🌊 Gemini-Powered Ecosystem Narration
 
-[![CI — Ecosystem Narration Tests](https://github.com/YOUR_USERNAME/gemini-ecosystem-narration/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/gemini-ecosystem-narration/actions)
+[![CI — Ecosystem Narration Tests](https://github.com/anmoltyagi18/Catrobat/actions/workflows/ci.yml/badge.svg)](https://github.com/anmoltyagi18/Catrobat/actions)
 
 ## Overview
 This project is an AI-powered narration and explainability layer for marine ecosystem simulations. It leverages the **Google Gemini API** (and support for **OpenRouter/Gemma 3**) to translate raw JSON/CSV simulation event logs into engaging, scientifically accurate 2–4 sentence ecological summaries. 
@@ -20,7 +20,7 @@ The script includes a robust **Mock Mode** for evaluation without an API key.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/gemini-ecosystem-narration.git
+git clone https://github.com/anmoltyagi18/Catrobat.git
 cd gemini-ecosystem-narration
 
 # Install dependencies (Standard Library + Gemini/OpenAI SDKs)
@@ -143,12 +143,12 @@ gemini-ecosystem-narration/
 Link: [Catrobat GSoC 2026 Ideas](https://developer.catrobat.org/pages/development/google-summer-of-code/2026/)
 
 ## License
-MIT License - Copyright (c) 2026 YOUR_NAME
+MIT License - Copyright (c) 2026 anmoltyagi18
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 ## Author
-[YOUR_NAME] - [GitHub Profile Link]
+[anmoltyagi18](https://github.com/anmoltyagi18)
 GSoC 2026 applicant — Catrobat
